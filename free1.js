@@ -1,10 +1,12 @@
-function min(arr, toReturn) {
-     if (toReturn === "index") {
-          return 0;
-     } else if (toReturn === "value") {
-          return Math.min.apply(null, arr);
-     } else {return "Not correct data"}
+function updateRecords(records, id, prop, value) {
+     if (prop !== 'tracks' && value !== "") {
+       records[id][prop] = value;
+     } else if (prop === "tracks" && records[id].hasOwnProperty("tracks") === false) {
+       records[id][prop] = [value];
+     } else if (prop === "tracks" && value !== "") {
+       records[id][prop].push(value);
+     } else if (value === "") {
+       delete records[id][prop];
+     }
+     return records;
    }
- console.log(min([1,2,3,4,5], 'value'));
-
- console.log(Math.min.apply(null, [1,2,3,4,5]));
