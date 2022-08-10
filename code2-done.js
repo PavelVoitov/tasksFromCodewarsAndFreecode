@@ -6,4 +6,4 @@ function correctTail(bod, tail) {
       return false
 };
   
-   console.log((correctTail("Fox", "x")));
+//    console.log((correctTail("Fox", "x")));

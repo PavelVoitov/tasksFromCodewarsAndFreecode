@@ -6,6 +6,6 @@ function rangeOfNumbers(startNum, endNum) {
     
   };
 
-  console.log(rangeOfNumbers(1, 6));
+  // console.log(rangeOfNumbers(1, 6));
 
  

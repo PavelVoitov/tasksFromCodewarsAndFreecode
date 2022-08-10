@@ -1,20 +1,21 @@
- function validateUsr(username) {
-let str = /[a-z0-9_]/;
-for (let i = 0; i < username.length; i++) {
-    if (username[i] == str) {
-        return true;
-    } else return false;
-} 
+//  function validateUsr(username) {
+// let str = /[a-z0-9]/;
+// console.log(str);
+// for (let i = 0; i < username.length; i++) {
+//     console.log(username[i]);
+//     console.log(typeof username[i]);
+//     if (username[i] == str) {
+//         console.log(username[i]);
+//         return true;
+//     } else return false;
+// } 
 
-}
-//  console.log(validateUsr("z"));
+// }
+// console.log(validateUsr("A"));
 
-// let str = "zvdvewv";
-// let reg = /[a-z]/;
-// console.log(sort);
+function validateUsr(username) {
+    let str = /a-z0-9/;
+    return username.includes(str);
+};
 
-// let men = "bdzhndfnhzdg";
-// let num = /[a-z]/;
-
-// let res = men.match(num);
-// console.log(res);
+// console.log(validateUsr('A'));

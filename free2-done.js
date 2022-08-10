@@ -38,4 +38,4 @@ const contacts = [
    
   }
   
-  console.log(lookUpProfile("Akira", "likes"));
+  // console.log(lookUpProfile("Akira", "likes"));

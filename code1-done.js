@@ -21,4 +21,4 @@ function consecutive(arr) {
        
     }
 
-    console.log(consecutive([10, 7, 5, 6, 1]));
+    // console.log(consecutive([10, 7, 5, 6, 1]));
