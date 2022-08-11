@@ -15,5 +15,6 @@ function validateUsr(username) {
           }
     }  
     
-    console.log(validateUsr(''));
+    // console.log(validateUsr(''));
 
+   
