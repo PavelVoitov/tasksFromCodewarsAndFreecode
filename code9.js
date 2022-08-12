@@ -1,4 +1,5 @@
-toAlternatingCase = (String) => {
+String.prototype.toAlternatingCase = function () {
+    // String = String(String);
     let backwards = [];
     for (let i = 0; i < String.length; i++) {
         console.log(String[i]);
@@ -12,4 +13,5 @@ toAlternatingCase = (String) => {
     }
     return backwards.join('');
   }
-//   "hello world".toAlternatingCase();
+
+  console.log("helloworld".toAlternatingCase());
