@@ -1,15 +1,17 @@
  :root {
-                        --penguin-size: 300px;
-                        --penguin-skin: gray;
+                        --penguin-size: 100px;
+                        --penguin-skin: rgb(5, 5, 5);
                         --penguin-belly: white;
                         --penguin-beak: orange;
                         }
                     
                         @media (max-width: 350px) {
-:root {
-                            /* Only change code below this line */
-                    
-                            /* Only change code above this line */
+ :root {
+                           
+                            --penguin-skin: gray;
+                            --penguin-size: 50px;
+                            --penguin-beak: rgb(241, 137, 137);
+                           
                         }
                         }
                     
@@ -17,7 +19,7 @@
                         position: relative;
                         margin: auto;
                         display: block;
-                        margin-top: 5%;
+                        margin-top: 2%;
                         width: var(--penguin-size, 300px);
                         height: var(--penguin-size, 300px);
                         }
