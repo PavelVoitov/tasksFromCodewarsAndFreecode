@@ -14,4 +14,4 @@ String.prototype.toAlternatingCase = function () {
     return backwards.join('');
   }
 
-  console.log("helloworld".toAlternatingCase());
+  // console.log("helloworld".toAlternatingCase());
