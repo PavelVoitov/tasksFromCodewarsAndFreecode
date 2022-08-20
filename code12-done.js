@@ -9,4 +9,4 @@ function howMuchILoveYou(nbPetals) {
         return arr[index - 1];
     } 
 }
- console.log(howMuchILoveYou(228));
+//  console.log(howMuchILoveYou(228));
