@@ -8,4 +8,4 @@ function grow(x){
     return count;
   }
 
-    console.log(grow([4, 1, 1, 1, 4]));
+    // console.log(grow([4, 1, 1, 1, 4]));
