@@ -6,7 +6,7 @@ var summation = function (num) {
     return sum;
   }
 
-  console.log(summation(10))
+//   console.log(summation(10))
   
 
 

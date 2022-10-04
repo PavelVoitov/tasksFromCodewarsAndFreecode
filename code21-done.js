@@ -15,5 +15,5 @@ function updateLight(current) {
   }
 
  
-  console.log(updateLight('green'));
+//   console.log(updateLight('green'));
  
